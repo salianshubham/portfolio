@@ -1,0 +1,31 @@
+@media screen and (max-width: 900px) {
+
+    .contact_form {
+        height: 80vh;
+        width: 100%;
+        border-radius: 20px;
+        border: 10px #6E07F3 solid;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    form>button {
+        height: 10vw;
+        width: 100%;
+        border-width: 2px;
+        font-size: 5vw;
+        background-color: transparent;
+        border-color: #6E07F3;
+        color: #6E07F3;
+        border-radius: 100px;
+        font-family: "europa", sans-serif;
+        cursor: pointer;
+        transition: all ease 0.5s;
+    }
+
+    form>button:hover {
+        background-color: #6E07F3;
+        color: #fff;
+    }
+}

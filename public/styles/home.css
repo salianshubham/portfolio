@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    font-family: "europa", sans-serif;
+}
+
+.outerNavBar {
+    display: flex;
+    height: 10vw;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerNavBar {
+    display: flex;
+    height: 5vw;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    height: 5vw;
+    width: 7vw;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    width: 13vw;
+    margin-left: auto;
+
+}
+
+.name>h3 {
+    font-size: 1.2vw;
+    font-family: "europa", sans-serif;
+}
+
+.contact {
+    display: flex;
+    height: 5vw;
+    width: 7vw;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.S {
+    font-size: 5vw;
+    color: #6E07F3;
+}
+
+.contact_button {
+    height: 3vw;
+    width: 8vw;
+    border-width: 2px;
+    font-size: 1.2vw;
+    background-color: transparent;
+    border-color: #6E07F3;
+    color: #6E07F3;
+    border-radius: 100px;
+    font-family: "europa", sans-serif;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.contact_button:hover {
+    background-color: #6E07F3;
+    color: #fff;
+}
+
+
+.middleMainDiv {
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+    width: 100vw;
+}
+
+.middleCenterBody {
+    display: flex;
+    height: 65vh;
+    width: 75vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middleCenterBody>h1 {
+    font-size: 4vw;
+    font-family: "europa", sans-serif;
+    color: #141c3a;
+
+}
+
+.middleCenterBody>h2 {
+    font-size: 2vw;
+    margin-top: 20px;
+    font-family: "europa", sans-serif;
+    color: rgba(10, 10, 10, 0.9);
+}
+
+.middleCenterBody>img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+
+/* ************section3*********** */
+.section3 {
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    background-color: #6e07f3;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3Content {
+    height: 25vh;
+    width: 50vw;
+}
+
+.section3Content>h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "europa", sans-serif;
+    font-size: 2.5vw;
+}
+
+.section3Content>h4 {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: "europa", sans-serif;
+}
+
+
+
+/* section 4 div includes  skills  */
+
+.section4 {
+    height: 30vh;
+    width: 100vw;
+    margin-top: 50px;
+}
+
+.section4>h1 {
+    text-align: center;
+    color: #141c3a;
+}
+
+.skills_image {
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.skills_image>img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+/* section 5 div includes  My recent works */
+
+.section5 {
+    height: 50vh;
+    width: 100vw;
+    margin-top: 50px;
+
+}
+
+.section5>h1 {
+    text-align: center;
+    color: #141c3a;
+}
+
+
+.recent_works_card {
+    display: flex;
+    height: 25vh;
+    width: 100vw;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.recent_works_card>a {
+    text-decoration: none;
+}
+
+
+.ticket_booking {
+    display: flex;
+    height: 250px;
+    width: 400px;
+    background-color: #6e07f3;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket_booking>img {
+    height: 100px;
+    width: 100px;
+}
+
+.ticket_booking>h1 {
+    color: white;
+}
+
+.cake_land {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 400px;
+    background-color: #6e07f3;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.cake_land>img {
+    height: 100px;
+    width: 100px;
+
+}
+
+.cake_land>h1 {
+    color: white;
+}
+
+
+/* section 6 div includes  footer */
+
+.section6 {
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 50px;
+    background-color: #6e07f3;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section6>h1 {
+    color: #fff;
+    font-size: 5vw;
+}
+
+.section6>h3 {
+    color: #fff;
+    font-size: 1vw;
+}
+
+.resume {
+    color: blue;
+    font-size: 1vw;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.social_media_icons {
+    height: 50px;
+    width: 50px;
+    /* background-color: #fff; */
+}
