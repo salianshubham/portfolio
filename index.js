@@ -49,7 +49,7 @@ app.post("/send", async (req, res) => {
             })
             var mailOption = {
                 from: "shubhamsalian46@gmail.com",
-                to: email,
+                to: [email, "shubhamsalian46@gmail.com"],
                 subject: "Thank You for Contacting Shubham Salian",
 
                 text: `Dear ${name},
