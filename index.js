@@ -4,7 +4,7 @@ const portfolioModel = require("./dbModel")
 const connectToDatabase = require("./db")
 const nodemailer = require("nodemailer")
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.static("public")); //adding css file
 app.use(body_parser.urlencoded({ extended: true }))
@@ -77,7 +77,9 @@ app.post("/send", async (req, res) => {
                     console.log("email sent", info.response)
                 }
             })
-            res.render("home.ejs")
+            res.render("contact.ejs", {
+                response: "Thank you for showing intrest. You will receive an email as soon as poosible"
+            })
         } else {
             res.send("error")
         }

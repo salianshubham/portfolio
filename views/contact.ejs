@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="/styles/contact.css">
     <link rel="stylesheet" href="/styles/mobileView_contact.css">
 </head>
 
 <body>
+    <h1 style="text-align: center;color: green;">
+        <%=locals.response %>
+    </h1>
     <div class="contact_section1">
+
         <div class="contact_form">
             <h1>CONTACTS</h1>
             <form action="/send" method="post">
