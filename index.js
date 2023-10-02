@@ -59,7 +59,7 @@ app.post("/send", async (req, res) => {
                 I want to assure you that I have received your details, including your name, email address, and mobile number. Your message is important to me, and I will do my best to respond as soon as possible.
 
                 If your inquiry is time-sensitive or requires immediate attention, please feel free to reach out to me directly at shubhamsalian46@gmail.com or ${mobileNumber}.
-                        
+
                 Once again, thank you for considering me for your inquiry. I look forward to connecting with you and addressing your questions or requests.
 
                 Best regards,
@@ -85,7 +85,7 @@ app.post("/send", async (req, res) => {
         }
 
     } catch (error) {
-        res.status(500).json({ message: "error while saving data" })
+        res.render("404.ejs")
     }
 })
 
